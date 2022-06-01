@@ -20,3 +20,8 @@ get_coin_combination(6) == [1, 1, 0, 0]  # 1 penny + 1 nickel
 get_coin_combination(17) == [2, 1, 1, 0]   # 2 pennies + 1 nickel + 1 dime
 get_coin_combination(50) == [0, 0, 0, 2]   # 2 quarters
 ```
+
+Run `pytest app/` to check if function pass your tests.
+
+Run `pytest --numprocesses=auto tests/` to check if your tests cover all boundary conditions
+and pass task tests.
