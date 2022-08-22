@@ -13,6 +13,8 @@ The function should return a list where:
 - `coins[2]` = number of dimes (1 dime = 10 cents);
 - `coins[3]` = number of quarters (1 quarter = 25 cents).
 
+**Please note:** you have to use `pytest` for writing tests.
+
 Examples:
 ```python
 get_coin_combination(1) == [1, 0, 0, 0]  # 1 penny
